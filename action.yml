@@ -1,0 +1,9 @@
+name: action-rollout-semantic-pull-request
+author: Saurabh Kashyap <saurabhkashyap0001@gmail.com>
+description: Ensure a PR title matches rollout version of the Conventional Commits spec
+runs:
+  using: "node16"
+  main: "dist/index.js"
+outputs:
+  validation_issues:
+    description: "Validation issues detected in the PR title"
