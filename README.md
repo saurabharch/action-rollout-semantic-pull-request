@@ -1,8 +1,8 @@
-# action-rollout-semantic-pull-request
+# 🎬 action-rollout-semantic-pull-request
 
 GitHub Action to validate that PR titles in [`saueabharch/rollout`](https://github.com/saurabharch/rollout) match [rollout version](https://www.rollout.com/nodes/version) of the Conventional Commits spec.
 
-## Setup
+## 🏗️Setup
 
 1. Make a `.github/workflows` dir in your repo.
 2. Create `.github/workflows/validate-pr-title.yml` containing:
@@ -37,7 +37,7 @@ jobs:
 
 On validation failure, this action will populate the [`validation_issues` output](https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs). You can use this output in subsequent steps, e.g. to send the validation issue as a comment on the pull request.
 
-<details>
+📰<details>
 <summary>Output usage example</summary>
 
 ````yml
@@ -93,7 +93,7 @@ git push --follow-tags
 
 ## Author
 
-© 2022 [Iván Ovejero](https://github.com/ivov)
+© 2022 [Saurabh Kashyap](https://github.com/saurabharch)
 
 ## License
 
